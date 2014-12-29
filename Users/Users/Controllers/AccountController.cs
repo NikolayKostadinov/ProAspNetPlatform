@@ -45,6 +45,7 @@
 
                     ClaimsIdentity ident = await UserManager.CreateIdentityAsync(user,
                         DefaultAuthenticationTypes.ApplicationCookie);
+                    ident.AddClaims(AdministratorClaimsProvider.AddAdministratorAccessToRoles(this, ident));
                     AuthManager.SignOut();
                     AuthManager.SignIn(new AuthenticationProperties
                     {

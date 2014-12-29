@@ -1,0 +1,5 @@
+﻿@using Models.DataModels;
+
+@model Cities
+
+@Html.DropDownListFor(x => x, new SelectList(Enum.GetNames(typeof(Cities))), new { @class="form-control"})

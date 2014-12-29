@@ -7,7 +7,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Models.IdentityModels
 {
-    public class AppRole:IdentityRole
+    public class AppRole:RoleCustomeProps
     {
         public AppRole()
             :base()

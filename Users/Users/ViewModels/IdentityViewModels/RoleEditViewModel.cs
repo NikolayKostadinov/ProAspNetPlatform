@@ -9,6 +9,8 @@ namespace Users.ViewModels.IdentityViewModels
     public class RoleEditViewModel
     {
         public AppRole Role { get; set; }
+
+        public bool IsAvailableForAdministrators { get { return Role.IsAvailableForAdministrators; } }
         public IEnumerable<AppUser> Members { get; set; }
         public IEnumerable<AppUser> NonMembers { get; set; }
     }

@@ -1,0 +1,29 @@
+﻿@using Models.IdentityModels;
+@model AppUser
+@{
+    ViewBag.Title = "Потребителски данни";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        @ViewBag.Title
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>Град</th>
+            <td>@Html.DisplayFor(m => m.City)</td>
+        </tr>
+    </table>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.City, new { @class = "control-label" })
+        @Html.EditorFor(m => m.City, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Запис</button>
+}
+
+

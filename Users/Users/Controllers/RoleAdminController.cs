@@ -101,6 +101,21 @@
             IdentityResult result;
             if (ModelState.IsValid)
             {
+                var role = await RoleManager.FindByNameAsync(model.RoleName);
+                if (role != null)
+                {
+                    role.IsAvailableForAdministrators = model.IsAvailableForAdministrators;
+                    result = await RoleManager.UpdateAsync(role);
+                    if (!result.Succeeded)
+                    {
+                        return View("Error", result.Errors);
+                    }
+                }
+                else 
+                {
+                    return View("Error", new string[] { "Ролята не е намерена!" });
+                }
+
                 foreach (string userId in model.IdsToAdd ?? new string[] { })
                 {
                     result = await UserManager.AddToRoleAsync(userId, model.RoleName);
