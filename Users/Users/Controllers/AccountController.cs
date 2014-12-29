@@ -10,10 +10,15 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
     using Models.IdentityModels;
+<<<<<<< HEAD
     using OtpSharp;
     using Users.Infrastructure.IdentityInfrastructure;
     using Users.ViewModels.IdentityViewModels;
     using Base32;
+=======
+    using Users.Infrastructure.IdentityInfrastructure;
+    using Users.ViewModels.IdentityViewModels;
+>>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
 
     [Authorize]
     public class AccountController : Controller
@@ -67,6 +72,7 @@
             return RedirectToAction("Index", "Home");
         }
 
+<<<<<<< HEAD
         [HttpGet]
         [Authorize]
         public async Task<ActionResult> EnableGoogleAuthenticator()
@@ -110,6 +116,8 @@
             return View(model);
         }
 
+=======
+>>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
 
         private AppUserManager UserManager
         {
