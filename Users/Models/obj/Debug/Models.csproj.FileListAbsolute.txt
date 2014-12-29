@@ -25,3 +25,4 @@ D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.As
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.dll
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.pdb
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache

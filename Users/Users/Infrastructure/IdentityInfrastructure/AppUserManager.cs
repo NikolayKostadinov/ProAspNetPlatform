@@ -68,6 +68,9 @@
                 RequireLowercase = passwordSettings.RequireLowercase,
                 RequireUppercase = passwordSettings.RequireUppercase,
             };
+
+            manager.RegisterTwoFactorProvider("GoogleAuthenticator", new GoogleAuthenticatorTokenProvider());
+
             return manager;
         }
 

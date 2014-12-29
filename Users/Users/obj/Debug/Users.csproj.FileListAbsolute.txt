@@ -86,3 +86,6 @@ D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\System.Web.Webpages
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\System.Web.Webpages.Razor.xml
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\System.Web.Helpers.xml
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\obj\Debug\Users.pdb
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\Base32.dll
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\OtpSharp.dll
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Users\bin\OtpSharp.xml

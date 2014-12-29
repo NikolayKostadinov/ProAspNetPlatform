@@ -61,10 +61,19 @@ namespace Users.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool RequireUppercase {
             get {
                 return ((bool)(this["RequireUppercase"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("UserAuthenticationAdministration(created by Manhattan)")]
+        public string ApplicationName {
+            get {
+                return ((string)(this["ApplicationName"]));
             }
         }
     }

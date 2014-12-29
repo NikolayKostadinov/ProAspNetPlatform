@@ -10,8 +10,10 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
     using Models.IdentityModels;
+    using OtpSharp;
     using Users.Infrastructure.IdentityInfrastructure;
     using Users.ViewModels.IdentityViewModels;
+    using Base32;
 
     [Authorize]
     public class AccountController : Controller
@@ -63,6 +65,49 @@
         {
             AuthManager.SignOut();
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult> EnableGoogleAuthenticator()
+        {
+            byte[] secretKey = KeyGeneration.GenerateRandomKey(20);
+            string userName = User.Identity.GetUserName();
+            string barcodeUrl = KeyUrl.GetTotpUrl(secretKey, userName) + "&issuer="+ Properties.Settings.Default.ApplicationName;
+
+            var model = new GoogleAuthenticatorViewModel
+            {
+                SecretKey = Base32Encoder.Encode(secretKey),
+                BarcodeUrl = HttpUtility.UrlEncode(barcodeUrl)
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> EnableGoogleAuthenticator(GoogleAuthenticatorViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                byte[] secretKey = Base32Encoder.Decode(model.SecretKey);
+
+                long timeStepMatched = 0;
+                var otp = new Totp(secretKey);
+                if (otp.VerifyTotp(model.Code, out timeStepMatched, new VerificationWindow(2, 2)))
+                {
+                    var user = await UserManager.FindByIdAsync(User.Identity.GetUserId());
+                    //user.IsGoogleAuthenticatorEnabled = true;
+                    user.GoogleAuthenticatorSecretKey = model.SecretKey;
+                    await UserManager.UpdateAsync(user);
+
+                    return RedirectToAction("Index", "Manage");
+                }
+                else
+                    ModelState.AddModelError("Code", "The Code is not valid");
+            }
+
+            return View(model);
         }
 
 
