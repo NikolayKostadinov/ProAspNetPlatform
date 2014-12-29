@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Users\Users.csproj", "{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FE26DC5A-4829-43B8-8ACB-81E9EC3E6188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2E92BB9D-00E6-4964-A05E-9DE579040058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{5E55EE1A-4812-4463-A5FA-991EE97E7B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{851A7B40-F65E-400F-A9A6-A91319D48A1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{FBC79D95-47BF-4F83-85FE-E7C8739F8AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27}.Release|x86.ActiveCfg = Release|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Release|x64.ActiveCfg = Release|Any CPU
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C64DDF7-B9AA-4492-B4A1-118565C78B2F} = {FE26DC5A-4829-43B8-8ACB-81E9EC3E6188}
+		{5E55EE1A-4812-4463-A5FA-991EE97E7B27} = {FBC79D95-47BF-4F83-85FE-E7C8739F8AFC}
+		{851A7B40-F65E-400F-A9A6-A91319D48A1F} = {2E92BB9D-00E6-4964-A05E-9DE579040058}
+	EndGlobalSection
+EndGlobal

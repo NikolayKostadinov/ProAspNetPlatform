@@ -1,0 +1,26 @@
+﻿@model Users.ViewModels.IdentityViewModels.LoginViewModel
+@{
+    ViewBag.Title = "Вход в системата";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@Html.ValidationSummary()
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("returnUrl", (object)ViewBag.returnUrl)
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserName, new { @class = "control-label" })
+        @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.UserName, string.Empty, new { @class = "validation-summary-errors" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+        @Html.EditorFor(m => m.Password, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Password, string.Empty, new { @class = "validation-summary-errors" })
+    </div>
+    <button type="submit" class="btn btn-primary">Вход</button>
+}
+

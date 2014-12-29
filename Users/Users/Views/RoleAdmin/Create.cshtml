@@ -1,0 +1,18 @@
+﻿@model string
+@{
+    ViewBag.Title = "Създаване на роля";
+}
+
+<h2>@ViewBag.Title</h2>
+@Html.ValidationSummary()
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label class="control-label">Име</label>
+        <input name="name" value="@Model" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Създай</button>
+    @Html.ActionLink("Отказ", "Index", null, new { @class="btn btn-default"})
+}
+
