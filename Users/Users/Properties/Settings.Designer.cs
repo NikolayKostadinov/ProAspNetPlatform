@@ -61,17 +61,12 @@ namespace Users.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-=======
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
         public bool RequireUppercase {
             get {
                 return ((bool)(this["RequireUppercase"]));
             }
         }
-<<<<<<< HEAD
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -81,7 +76,5 @@ namespace Users.Properties {
                 return ((string)(this["ApplicationName"]));
             }
         }
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     }
 }

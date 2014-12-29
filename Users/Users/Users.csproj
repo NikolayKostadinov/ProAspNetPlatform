@@ -38,12 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Reference Include="Base32">
       <HintPath>..\packages\Base32.1.0.0.12\lib\net40\Base32.dll</HintPath>
     </Reference>
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -78,12 +75,9 @@
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
     <Reference Include="OtpSharp">
       <HintPath>..\packages\OtpSharp.1.2.6.28\lib\net40\OtpSharp.dll</HintPath>
     </Reference>
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
@@ -184,10 +178,7 @@
     <Compile Include="Infrastructure\IdentityInfrastructure\AdministratorClaimsProvider.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppRoleManager.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppUserManager.cs" />
-<<<<<<< HEAD
     <Compile Include="Infrastructure\IdentityInfrastructure\GoogleAuthenticatorTokenProvider.cs" />
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -196,10 +187,7 @@
     </Compile>
     <Compile Include="ViewModels\IdentityViewModels\CreateUserViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\EditUserViewModel.cs" />
-<<<<<<< HEAD
     <Compile Include="ViewModels\IdentityViewModels\GoogleAuthenticatorViewModel.cs" />
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     <Compile Include="ViewModels\IdentityViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleCreateViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleEditViewModel.cs" />
@@ -216,10 +204,7 @@
     <Content Include="Views\RoleAdmin\Index.cshtml" />
     <Content Include="Views\RoleAdmin\Create.cshtml" />
     <Content Include="Views\RoleAdmin\Edit.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Account\EnableGoogleAuthenticator.cshtml" />
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
