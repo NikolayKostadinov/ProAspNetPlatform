@@ -11,6 +11,9 @@ namespace Users.ViewModels.IdentityViewModels
         [Required]
         public string RoleName { get; set; }
 
+        [Required]
+        public bool IsAvailableForAdministrators { get; set; }
+
         public string[] IdsToAdd { get; set; }
 
         public string[]IdsToDelete { get; set; }

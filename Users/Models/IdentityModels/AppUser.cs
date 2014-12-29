@@ -1,8 +1,7 @@
 ﻿namespace Models.IdentityModels
 {
     using Microsoft.AspNet.Identity.EntityFramework;
-    public class AppUser:IdentityUser
+    public class AppUser:UserCustomeProps
     {
-        //additionalProperties will go here
     }
 }

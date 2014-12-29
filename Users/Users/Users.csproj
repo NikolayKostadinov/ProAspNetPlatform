@@ -169,6 +169,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\Helpers\IdentityHelpers.cs" />
+    <Compile Include="Infrastructure\IdentityInfrastructure\AdministratorClaimsProvider.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppRoleManager.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppUserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -180,6 +181,7 @@
     <Compile Include="ViewModels\IdentityViewModels\CreateUserViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\EditUserViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\IdentityViewModels\RoleCreateViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleEditViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleModificationViewModel.cs" />
   </ItemGroup>

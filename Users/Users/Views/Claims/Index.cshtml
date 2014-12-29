@@ -1,0 +1,37 @@
+﻿@using System.Security.Claims;
+@using Users.Infrastructure.Helpers;
+
+@model IEnumerable<Claim>
+@{
+    ViewBag.Title = "Claims";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        @ViewBag.Title
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.LabelFor(m => m.First().Subject)
+            </th>
+            <th>
+                @Html.LabelFor(m => m.First().Issuer)
+            </th>
+            <th>
+                @Html.LabelFor(m => m.First().Type)
+            </th>
+            <th>
+                @Html.LabelFor(m => m.First().Value)
+            </th>
+        </tr>
+        @foreach (Claim claim in @Model.OrderBy(x => x.Type))
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => claim.Subject.Name)</td>
+                <td>@Html.DisplayFor(m => claim.Issuer)</td>
+                <td>@Html.ClaimType(@claim.Type)</td>
+                <td>@Html.DisplayFor(m => claim.Value)</td>
+            </tr>
+        }
+    </table>
+</div>

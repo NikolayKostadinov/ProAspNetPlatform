@@ -52,8 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataModels\Cities.cs" />
     <Compile Include="IdentityModels\AppRole.cs" />
     <Compile Include="IdentityModels\AppUser.cs" />
+    <Compile Include="IdentityModels\RoleCustomeProps.cs" />
+    <Compile Include="IdentityModels\UserCustomeProps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

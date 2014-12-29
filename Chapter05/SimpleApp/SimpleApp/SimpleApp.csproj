@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -104,9 +105,13 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\CounterHandlerFactory.cs" />
+    <Compile Include="Infrastructure\CouterHandler.cs" />
     <Compile Include="Infrastructure\CustomRouteHandler.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Infrastructure\DayModule.cs" />
     <Compile Include="Infrastructure\DayOfWeekHandler.cs" />
+    <Compile Include="Infrastructure\IRequestDate.cs" />
     <Compile Include="Infrastructure\SiteLenghtHandler.cs" />
     <Compile Include="Infrastructure\TimerModule.cs" />
     <Compile Include="Infrastructure\TotalTimeModule.cs" />

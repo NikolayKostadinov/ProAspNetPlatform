@@ -8,3 +8,8 @@ D:\TelericAcademy\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\bin\Debug\
 D:\TelericAcademy\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.csprojResolveAssemblyReference.cache
 D:\TelericAcademy\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.dll
 D:\TelericAcademy\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.pdb
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\bin\Debug\CommonModules.dll
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\bin\Debug\CommonModules.pdb
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.csprojResolveAssemblyReference.cache
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.dll
+D:\TelerikAcademyHomeworks\ProAspNetPlatform\Chapter05\SimpleApp\CommonModules\obj\Debug\CommonModules.pdb
