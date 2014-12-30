@@ -211,6 +211,7 @@
                 case Users.Infrastructure.Helpers.SignInStatus.Success:
                     var ident = HttpContext.User.Identity as ClaimsIdentity;
                     ident.AddClaims(AdministratorClaimsProvider.AddAdministratorAccessToRoles(this, ident));
+                    HttpContext.GetOwinContext().Authentication.User.AddIdentity(ident);
                     return RedirectToLocal(model.ReturnUrl);
                 case Users.Infrastructure.Helpers.SignInStatus.LockedOut:
                     return View("Lockout");
