@@ -38,13 +38,13 @@
 
             // Instantiate the regular expression object.
             Regex r = new Regex(pattern, RegexOptions.IgnoreCase);
-            if (r.IsMatch(email))
+            if ( r.IsMatch(email))
             {
-                return IdentityResult.Success;
+                return  IdentityResult.Success;
             }
             else 
             {
-                return IdentityResult.Failed(new string[] { "Невалидна електронна поща" });
+                return  IdentityResult.Failed(new string[] { "Невалидна електронна поща" });
             }
         }
 

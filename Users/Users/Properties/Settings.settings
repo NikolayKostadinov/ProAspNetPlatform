@@ -15,14 +15,10 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="RequireUppercase" Type="System.Boolean" Scope="Application">
-<<<<<<< HEAD
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="ApplicationName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">UserAuthenticationAdministration(created by Manhattan)</Value>
-=======
-      <Value Profile="(Default)">True</Value>
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02
     </Setting>
   </Settings>
 </SettingsFile>
