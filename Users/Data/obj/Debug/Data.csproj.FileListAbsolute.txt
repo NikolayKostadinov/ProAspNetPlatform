@@ -11,7 +11,6 @@ D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\EntityFramework.xml
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\TelericAcademy\ProAspNetPlatform\Users\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\obj\Debug\Data.dll
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\obj\Debug\Data.pdb
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Data\bin\Debug\Data.dll.config
@@ -36,3 +35,4 @@ D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Data\bin\Debug\Newtonsoft.Jso
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\Newtonsoft.Json.dll
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\Owin.dll
 D:\TelericAcademy\ProAspNetPlatform\Users\Data\bin\Debug\Newtonsoft.Json.xml
+D:\TelericAcademy\ProAspNetPlatform\Users\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

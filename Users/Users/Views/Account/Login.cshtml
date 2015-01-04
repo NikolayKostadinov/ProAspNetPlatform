@@ -10,7 +10,6 @@
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-    @Html.Hidden("returnUrl", (object)ViewBag.returnUrl)
     <div class="form-group">
         @Html.LabelFor(m => m.UserName, new { @class = "control-label" })
         @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { @class = "form-control" } })

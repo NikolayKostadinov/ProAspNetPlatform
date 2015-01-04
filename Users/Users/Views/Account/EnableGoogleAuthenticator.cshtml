@@ -1,6 +1,4 @@
-﻿@using Users.ViewModels.IdentityViewModels;
-
-@model GoogleAuthenticatorViewModel
+﻿@model Users.ViewModels.IdentityViewModels.GoogleAuthenticatorViewModel
 <div class="row">
     <div class="col-md-8">
         <h3>1\. Add MySuperApplication to Google Authenticator</h3>
@@ -10,7 +8,7 @@
             Verify that MySuperApplication is added correctly in Google Authenticator by entering the 6 digit code which
             Google Authenticator generates for MySuperApplication below, and then click Enable.
         </p>
-        @using (Html.BeginForm("EnableGoogleAuthenticator", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        @using (Html.BeginForm("EnableGoogleAuthenticator", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
         {
             @Html.AntiForgeryToken()
             @Html.ValidationSummary(false)

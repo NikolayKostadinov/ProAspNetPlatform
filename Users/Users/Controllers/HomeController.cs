@@ -9,7 +9,6 @@ namespace Users.Controllers
     [Authorize]
     public class HomeController : Controller
     {
-        //[AllowAnonymous]
         public ActionResult Index()
         {
             return View(GetData("Index"));

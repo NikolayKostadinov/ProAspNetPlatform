@@ -11,7 +11,6 @@ D:\TelericAcademy\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.AspNet.Iden
 D:\TelericAcademy\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\TelericAcademy\ProAspNetPlatform\Users\Models\obj\Debug\Models.dll
 D:\TelericAcademy\ProAspNetPlatform\Users\Models\obj\Debug\Models.pdb
-D:\TelericAcademy\ProAspNetPlatform\Users\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Models.dll.config
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Models.dll
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Models.pdb
@@ -25,7 +24,4 @@ D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.As
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.dll
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.pdb
-<<<<<<< HEAD
 D:\TelerikAcademyHomeworks\ProAspNetPlatform\Users\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
-=======
->>>>>>> f3b07ea5dc9aaa7841c016eb3f0dcb9e18295e02

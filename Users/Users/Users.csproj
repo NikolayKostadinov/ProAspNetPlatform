@@ -175,6 +175,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\Helpers\IdentityHelpers.cs" />
+    <Compile Include="Infrastructure\Helpers\SignInHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\SignInStatus.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AdministratorClaimsProvider.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppRoleManager.cs" />
     <Compile Include="Infrastructure\IdentityInfrastructure\AppUserManager.cs" />
@@ -192,6 +194,8 @@
     <Compile Include="ViewModels\IdentityViewModels\RoleCreateViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleEditViewModel.cs" />
     <Compile Include="ViewModels\IdentityViewModels\RoleModificationViewModel.cs" />
+    <Compile Include="ViewModels\IdentityViewModels\SendCodeViewModel.cs" />
+    <Compile Include="ViewModels\IdentityViewModels\VerifyCodeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -205,6 +209,8 @@
     <Content Include="Views\RoleAdmin\Create.cshtml" />
     <Content Include="Views\RoleAdmin\Edit.cshtml" />
     <Content Include="Views\Account\EnableGoogleAuthenticator.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
