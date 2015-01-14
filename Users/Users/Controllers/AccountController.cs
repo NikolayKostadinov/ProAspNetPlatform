@@ -77,19 +77,6 @@
                             ModelState.AddModelError("", "Invalid login attempt.");
                             return View(details);
                     }
-
-                    //if (!await TryToSignInAsync(user, details.Password))
-                    //{
-                    //    if (!await SignInHelper.SendTwoFactorCode("GoogleAuthenticator"))
-                    //    {
-                    //        return View("Error", new string[] { "Въвели сте невалиден Google код!" });
-                    //    }
-                    //}
-                    ////if (!await EnableTFA(user.UserName))
-                    ////{
-                    ////    return RedirectToAction("Error", new string[] { "Не може да се активира двуфакторната автентикация!!!" });
-                    ////}
-                    //return RedirectToAction("VerifyCode", new { Provider = "GoogleAuthenticator", ReturnUrl = returnUrl });
                 }
             }
             
@@ -109,7 +96,6 @@
         public async Task<ActionResult> EnableGoogleAuthenticator(string returnUrl, string userName)
         {
             byte[] secretKey = KeyGeneration.GenerateRandomKey(20);
-            //string userName = User.Identity.GetUserName();
             string barcodeUrl = KeyUrl.GetTotpUrl(secretKey, userName) + "&issuer=" + Properties.Settings.Default.ApplicationName;
 
             var model = new GoogleAuthenticatorViewModel
